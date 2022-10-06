@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Produk Bunga</title>
+        <style>
+            #warna1{
+                color: #ae0d55;
+            }
+            #warna2{
+                color: #a00670;
+            }
+            h1{
+                color: #530303;
+;
+            }
+            .box{
+            width: 210px;
+                border: 1px solid;
+            
+            }
+        </style>
+    </head>
+    <body align="center" style="background-color : #f9d7d7">
+    <h1>Toko Bunga MorMor</h1>
+    <div align="center" class="desain-layout">
+        <table>
+            <tr>
+                <td>
+                    <div align="center" class="box">
+                        <img width="180"src="https://blogpictures.99.co/wp-content/uploads/2017/10/Makna-Bunga-8.jpg" alt="">
+                        <h4 id="warna2">
+                            1. Bunga Tulip
+                        </h4>
+                    </div>
+                </td>
+                <td>
+                    <div align="center" class="box">
+                        <img width="200"src="https://blogpictures.99.co/wp-content/uploads/2017/10/Makna-Bunga-6.jpg" alt="">
+                        <h4 id="warna2">
+                            2. Bunga Mawar
+                        </h4>
+                    </div>
+                </td>
+                <td>
+                    <div align="center" class="box">
+                        <img width="180"src="https://blogpictures.99.co/wp-content/uploads/2017/10/Makna-Bunga-4.jpg" alt="">
+                        <h4 id="warna2">
+                            3. Bunga Krisan
+                        </h4>
+                    </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <br>
+        <form action="detail-informasi.html" method="get">
+        <label for="nama">Nama Pemesan :</label>
+        <input type="text" name="nama"> <br> <br>
+
+        <p>Nomor Pilihan Pesanan :</p>
+        <input type="radio" name="pesanan">1<br>
+        <input type="radio" name="pesanan">2<br>
+        <input type="radio" name="pesanan">3<br> <br>
+
+        <label for="detail-barang">Bentu Pesanan :</label>
+        <select name="detail-barang" id="detail-barang">
+            <option value="bucket">Bucket</option>
+            <option value="pot">Pot</option>
+            <option value="benih">Benih</option>
+          </select> <br> <br>
+        
+        <label for="jumlah-barang">Jumlah Barang :</label>
+        <input type="number" name="jumlah-barang">
+        <button type="submit">Order</button>
+    </form>
+    </body>
+</html>
